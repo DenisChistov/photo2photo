@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Не отправляем обучающие checkpoint и дубликаты.
+*.pt
+!models/cyclegan_export.pt
+!models/cyclegan_export_monet.pt
